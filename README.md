@@ -7,6 +7,6 @@ https://ieeexplore.ieee.org/abstract/document/10161675
 # The Code for AS algorithm
 The latest code is in the file "RD_CBA.m". 
 
-This implement is more efficient than the version in the file "test_Gaussian.m".
+This implement is more efficient than the version in the files "BlahutA.m" and "sinkhorn_admm.m".
 
-Note: the major modification in the file "RD_CBA.m" is the way of matrix multiplication in matlab.
+Note: the major modification in the file "RD_CBA.m" is the way of matrix multiplication in matlab, which only needs $O(N^2)$ for each multiplication.

@@ -11,4 +11,4 @@ This implement is more efficient than the version in the files "BlahutA.m" and "
 
 Note: the major modification in the file "RD_CBA.m" is the way of matrix multiplication in matlab.
 
-The code in "RD_CBA.m" only needs $O(N^2)$ for each multiplication.
+The code in "RD_CBA.m" is of $O(N^2)$ complexity for each multiplication.
